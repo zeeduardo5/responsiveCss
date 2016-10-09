@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>The memory game</title>
+  <meta name="description" content="The memory game">
+  <meta name="José" content="Memory Game">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <script src="mainApp.js"></script>
+  <h1>Jogo Da Memoria</h1>
+  
+  <div class="col-12 btn-group">
+    <button id="newGame" class="button" type="button" onclick="newGame()">Novo Jogo</button>
+    <button id="startGame" class="button" type="button" onclick="startGame()">Iniciar Jogo</button>
+  </div>
+
+  <div class="col-12" id="timer_div"></div>
+  <div class="col-12 btn-group" id="share"></div>
+  <div id="container" class="row"></div>
+
+</body>
+
+</html>
